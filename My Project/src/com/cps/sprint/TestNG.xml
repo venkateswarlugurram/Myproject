@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="cps project autmation test">
+	<test name="logintest" thread-count="1" parallel="true">
+
+		<classes>
+
+			<class name="com.cps.sprint.VerifyURL" />
+			<class name="com.cps.sprint.VerifyLoginButton" />
+			<class name="com.cps.sprint.CustomerLoginTest" />
+			<class name="com.cps.sprint.VerifyAuthorityDropdown" />
+			<class name="com.cps.sprint.VerifyHeadBranch" />								
+			<class name="com.cps.sprint.VerifySubBranch" />		
+			<class name="com.cps.sprint.ChangePassword" />
+			<class name="com.cps.sprint.Transfer" />						
+			
+		</classes>
+
+
+
+
+	</test>
+
+</suite>

@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CPS Automation test">
+
+
+	<test name="login module">
+
+
+		<classes>
+		<class name="com.cps.test.ChangePasswordPageTest" />
+			<class name="com.cps.test.DropDownPageTest" />
+			<class name="com.cps.test.CustomerLoginPageTest" />
+			<class name="com.cps.test.LoginPageTest" />
+			<class name="com.cps.test.QuickTransferTest" />
+			<class name="com.cps.test.TransferToAnotherBankTest" />
+			<class name="com.cps.test.IMFSTransferPageTest" />
+			
+		</classes>
+
+
+
+	</test>
+
+
+
+
+</suite>

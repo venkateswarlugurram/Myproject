@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Ecetuctingfailedtestcasesuite">
+
+
+	<test name="mytest">
+		<listener>
+			<listener classname="Failedtestcases.RunTimeRetrylogic" />
+		</listener>
+
+
+		<classes>
+
+			<class name="Failedtestcases.Mytest" />
+
+		</classes>
+
+
+
+	</test>
+
+
+
+
+</suite>

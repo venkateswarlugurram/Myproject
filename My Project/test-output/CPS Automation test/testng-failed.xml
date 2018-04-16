@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CPS Automation test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="login module(failed)">
+    <classes>
+      <class name="com.cps.test.ChangePasswordPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="changePasswordTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.cps.test.ChangePasswordPageTest -->
+    </classes>
+  </test> <!-- login module(failed) -->
+</suite> <!-- Failed suite [CPS Automation test] -->
